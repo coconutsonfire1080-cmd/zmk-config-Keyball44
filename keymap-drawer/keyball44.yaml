@@ -69,13 +69,13 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&EQUAL'
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&LEFT_BRACKET'
-  - '&RIGHT_BRACKET'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
