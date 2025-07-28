@@ -48,12 +48,14 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         };
-    compatible = "zmk,combos";
-        combo_scroll {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
             timeout-ms = <50>;
-            key-positions = <20 21>;
-            bindings = <&mo 5>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
         };
+    };
 
 
     keymap {
