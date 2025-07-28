@@ -500,9 +500,10 @@ rect.held, rect.combo.held {
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 370)" class="layer-NUM">
@@ -732,9 +733,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 740)" class="layer-SYM">
@@ -964,9 +966,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1110)" class="layer-FUN">
@@ -1194,9 +1197,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1480)" class="layer-MOUSE">
@@ -1431,9 +1435,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1850)" class="layer-SCROLL">
@@ -1539,15 +1544,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(644, 84)" class="key trans keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(644, 84)" class="key held keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(700, 98)" class="key trans keypos-21">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(700, 98)" class="key held keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(756, 112)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1660,9 +1663,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 2220)" class="layer-SNIPE">
@@ -1889,9 +1893,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<a href="#SCROLL">
+<text x="672" y="91" class="combo tap layer-activator">SCROLL</text>
+</a></g>
 </g>
 </g>
 </svg>
