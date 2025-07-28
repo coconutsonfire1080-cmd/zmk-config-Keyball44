@@ -48,6 +48,13 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         };
+    compatible = "zmk,combos";
+        combo_scroll {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&mo 5>;
+        };
+
 
     keymap {
         compatible = "zmk,keymap";
@@ -58,7 +65,7 @@
 &kp ESCAPE  &kp Q     &kp W             &kp E               &kp R      &kp T                    &kp Y   &kp U  &kp I      &kp O    &kp P      &kp MINUS
 &kp TAB     &kp A     &kp S             &kp D               &kp F      &kp G                    &kp H   &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LCTRL   &kp Z     &kp X             &kp C               &kp V      &kp B                    &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH  &to 4
-&kp LGUI    &kp LALT  &kp LEFT_SHIFT    &lt 5 BACKSPACE     &lt 1 SPACE            &lt 2 ENTER  &kp DELETE                                    &to 5
+&kp LGUI    &kp LALT  &kp LEFT_SHIFT    &kp BACKSPACE     &lt 1 SPACE            &lt 2 ENTER  &kp DELETE                                    &to 4
             >;
         };
 
@@ -66,8 +73,8 @@
             label = "NUM";
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5               &kp F6                                 &kp F7        &kp F8        &kp F9        &kp F10       &kp F11  &kp F12
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5         &kp NUMBER_6                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none    &kp EQUAL
-&trans        &kp LEFT      &kp UP_ARROW  &trans        &kp LEFT_BRACKET        &kp RIGHT_BRACKET                         &none         &none         &none         &none         &to 1    &none
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5         &kp NUMBER_6                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none    &none
+&trans        &kp LEFT      &kp UP_ARROW  &trans        &kp LEFT_BRACKET        &kp RIGHT_BRACKET                         &none         &none         &none         &none         &to 1    &kp LGUI
 &kp DOWN      &kp RIGHT     &trans        &trans        &trans                                              &trans  &trans                                                           &kp LALT
             >;
         };
